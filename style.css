@@ -1,0 +1,259 @@
+/* all*/
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+
+/* header */
+header{
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 94px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    background-color: #fff;
+}
+.h-inner{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+header img{
+    width: 55px;
+    height: 55px;
+}
+.h-title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 16px;
+}
+.h-nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.h-nav li{
+    text-align: center;
+    margin-right: 45px;
+    list-style: none;
+    border-bottom: none;
+}
+.h-nav a{
+    color: black;
+}
+.contact-btn{
+    width: 155px;
+    height: 37px;
+    background: linear-gradient(135deg,rgb(193, 174, 211),blueviolet );
+    /* background-color: blueviolet; */
+    color: #fff;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    line-height: 37px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+}
+
+/* main */
+.main{
+    background-image: url(circle.png);
+    background-position:top  -150px right 120px;;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.m-inner{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 20px;
+}
+.m-text{
+    text-align: left;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.main .m-text p{
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.m-img{
+    position: absolute;
+    right: 15%;
+    top: 20%;
+    z-index: 1000;
+}
+
+/* feature */
+.f-title{
+    margin-top: 40px;
+    font-style: 32px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.f-title span{
+    font-size: 16px;
+    color: rgb(24, 176, 223);
+    display: block;
+    margin-top: 20px;
+}
+.f-heading{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 64px;
+}
+.f-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 93px;
+}
+.f-box h3{
+        font-size: 24px;
+        line-height: 1.8;
+        font-weight: bold;
+        margin-bottom: 54px;
+    }
+.f-text{
+    margin-right: auto;
+    margin-left: auto;
+}
+.f-box p{
+    line-height: 1.5;
+    font-weight: bold;
+}
+.f-box figure{
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+
+/* price */
+.price{
+    background-color:rgb(233, 238, 240);
+    padding: 64px 20px 128px;
+}
+.p-inner{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p-title{
+    margin-top: 40px;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.p-title span{
+    font-size: 16px;
+    color: rgb(24, 176, 223);
+    display: block;
+    margin-top: 20px;
+}
+table{
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    background-color: #fff;
+    border-collapse: collapse;
+
+}
+table th{
+    width: 30%;
+    padding: 30px;
+    min-width: 300px;
+    border: 1px solid #f0eded;
+}
+table td{
+    width: 70%;
+    text-align: left;
+    padding: 30px;
+    border: 1px solid  #f0eded;
+    font-weight: bold;
+}
+
+/* contact */
+.contact{
+    background: linear-gradient(135deg,rgb(173, 206, 157),rgb(32, 110, 226) );
+    padding: 40px 20px;
+    color: #fff;
+    text-align: center;
+}
+.c-title{
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.c-title span{
+    font-size: 16px;
+    display: block;
+    margin-top: 20px;
+}
+.c-inner p{
+    margin-bottom: 44px;
+    line-height: 1.8;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* slider */
+
+
+/* footer */
+footer{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper-container {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
